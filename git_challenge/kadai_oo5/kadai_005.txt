@@ -1,0 +1,35 @@
+PS C:\Users\nov25\OneDrive\デスクトップ\lesson> mkdir git_challenge
+
+    ディレクトリ: C:\Users\nov25\OneDrive\デスクトップ\lesson
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/11/09      0:24                git_challenge
+
++ cod git_challenge
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (cod:String) [], CommandNotFoundException
+PS C:\Users\nov25\OneDrive\デスクトップ\lesson> cd git_challenge
+PS C:\Users\nov25\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt
+PS C:\Users\nov25\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt
+PS C:\Users\nov25\OneDrive\デスクトップ\lesson\git_challenge> git commit -m "最初のコミット"
+[main (root-commit) 16bc23a] 最初のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git_challenge/hello_world.txt
+PS C:\Users\nov25\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt
+PS C:\Users\nov25\OneDrive\デスクトップ\lesson\git_challenge> git commit -m "2つ目のコミット"
+[main b734e63] 2つ目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\nov25\OneDrive\デスクトップ\lesson\git_challenge> mkdir kadai_oo5
+
+
+    ディレクトリ: C:\Users\nov25\OneDrive\デスクトップ\lesson\git_challenge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/11/09      0:36                kadai_oo5
+
+
+PS C:\Users\nov25\OneDrive\デスクトップ\lesson\git_challenge>
