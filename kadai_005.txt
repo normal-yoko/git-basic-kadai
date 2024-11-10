@@ -1,0 +1,110 @@
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> mkdir git_challenge
+mkdir : 指定された名前 C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge の項目は既に存在します。        
+発生場所 行:1 文字:1
++ mkdir git_challenge
+    + CategoryInfo          : ResourceExists: (C:\Users\nov25\...a\git_challenge:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> git rv git_challenge
+git: 'rv' is not a git command. See 'git --help'.
+
+        mv
+        rm
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> git rm git_challenge
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> git rm -r C:\Users\nov25\OneDrive\デスクトップ\lesson\git_challenge
+fatal: C:\Users\nov25\OneDrive\デスクトップ\lesson\git_challenge: 'C:\Users\nov25\OneDrive\デスクトップ\lesson\git_challenge' is outside repository at 'C:/Users/nov25/OneDrive/デスクトップ/samurai-terakoya'
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> git rm -r C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge
+error: the following file has changes staged in the index:
+    git_challenge/hello_world.txt
+(use --cached to keep the file, or -f to force removal)
+-f : 用語 '-f' は、コマンドレット、関数、スクリプト ファイル、または操作可能なプログラムの名前として認識されません。名前が 
+正しく記述されていることを確認し、パスが含まれている場合はそのパスが正しいことを確認してから、再試行してください。
+発生場所 行:1 文字:1
++ -f
+    + CategoryInfo          : ObjectNotFound: (-f:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> git rm -r C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\gerror: the following file has changes staged in the index:
+    git_challenge/hello_world.txt
+(use --cached to keep the file, or -f to force removal)
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> git rm -f C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge
+fatal: not removing 'C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge' recursively without -r
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> git rm -f C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge\hello_world.txt
+rm 'git_challenge/hello_world.txt'
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> mkdir git_samurai-terakoya
+
+    ディレクトリ: C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+
+
+it_samurai-terakoya
+fatal: pathspec 'C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_samurai-terakoya' did not match any files       
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> git rm -f C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_samurai-terakoya
+fatal: pathspec 'C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_samurai-terakoya' did not match any files       
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> git rm "C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_samurai-terakoya"
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> git rm -r "C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_samurai-terakoya"
+fatal: pathspec 'C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_samurai-terakoya' did not match any files       
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> git rm -r C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya  
+rm 'kadai_github/GitHubサンプル.png'
+rm 'koya.txt'
+rm 'orange.png'
+rm 'sam/.gitkeep'
+rm 'samurai/samurai.txt'
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> mkdir git_challenge
+
+
+----                 -------------         ------ ----
+
+
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> cd git_challenge
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge> git init
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge> git commit -m "最初のコミット"
+[main (root-commit) 360e2bf] 最初のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge> git add hello_world.txt       
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge> git commit -m "日本語訳を追記"                     
+[main c80740f] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge> cd ../
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> mkdir git_kadai_005                                              
+
+    ディレクトリ: C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/11/10     14:40                git_kadai_005
+
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> cd git kadai_005
+Set-Location : 引数 'kadai_005' を受け入れる位置指定パラメーターが見つかりません。
+発生場所 行:1 文字:1
++ cd git kadai_005
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location]、ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> cd kadai_005
+cd : パス 'C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\kadai_005' が存在しないため検出できません。
+発生場所 行:1 文字:1
++ cd kadai_005
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\nov25\...akoya\kadai_005:String) [Set-Location], ItemNotFoundExce  
+   ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> dir
+
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/11/10     14:30                git_challenge
+d-----        2024/11/10     14:40                git_kadai_005
+
+
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> cd kadai_005
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\kadai_005> git init
+Initialized empty Git repository in C:/Users/nov25/OneDrive/デスクトップ/samurai-terakoya/kadai_005/.git/
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\kadai_005>
