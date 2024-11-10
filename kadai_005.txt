@@ -108,3 +108,22 @@ PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> cd kadai_005
 PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\kadai_005> git init
 Initialized empty Git repository in C:/Users/nov25/OneDrive/デスクトップ/samurai-terakoya/kadai_005/.git/
 PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\kadai_005>
+
+-----再々提出分-----
+
+PS C:\Users\nov25\OneDrive\デスクトップ\lesson\git_challenge> git init
+PS C:\Users\nov25\OneDrive\デスクトップ> cd samurai-terakoya
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya> cd git_challenge
+Reinitialized existing Git repository in C:/Users/nov25/OneDrive/デスクトップ/samurai-terakoya/git_challenge/.git/
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge> git add hello_world.txt
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge> git commit -m "hello_world.txtを追加"
+[main 6656ccf] hello_world.txtを追加
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge> git add hello_world.txt
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge> git commit -m "日本語訳を追記"
+[main 599d347] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge> git log --oneline
+599d347 (HEAD -> main) 日本語訳を追記
+6656ccf hello_world.txtを追加
+PS C:\Users\nov25\OneDrive\デスクトップ\samurai-terakoya\git_challenge> 
